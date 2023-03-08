@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        .container{
+            background-image: url(pic2.jpg);
+            background-size: contain;
+            width: 100vw;
+            height: 85vh;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            margin:auto;
+            margin-top: 35px;
+            display: grid;
+            grid-template-columns: 40% 30%;
+            row-gap: 2px;
+            column-gap: 70px;
+            justify-content: center;
+        }
+        /* .items{
+            border: 2px solid black;
+        } */
+        div.first{
+            background-color: aliceblue;
+            opacity: 50%;
+            height: 70%;
+             padding-top:  5vh;
+             padding-left: 5vh;
+             border-radius: 10px;
+            /* color: black; */
+            margin-left: 70px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+        }
+        div.second{
+/* margin: 100px 150px 0 70px; */
+        }
+        div.first h2{
+           color: gray;
+           line-height: 60px;
+        }
+        div.first p{
+           color: gray;
+           /* line-height: 30px; */
+        }
+        div.first button{
+            margin-top: 50px;
+        }
+
+        div.hero{
+            background-color: white;
+            /* opacity: 50%; */
+            width: 35vw ;
+            /* height: 90vh; */
+            /* margin-left: 200px; */
+            border-radius: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            text-align: center;
+            grid-column: 2/span 2;
+            grid-row: 1/span 2;
+        }
+        div.hero .first{
+            color: yellowgreen;
+            line-height: 80px;
+        }div.hero h4{
+            line-height: 80px;
+        }
+        div.hero p{
+            text-indent: 50px;
+            text-align: justify;
+        }
+        div.hero p span{
+            color: cyan;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+<div class="first" style="height: 40vh;">
+<h2> APPLY FOR BACHELOR DEGREE </h2>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing
+    elit.  Temporibus nisi laboriosam sapiente debitis ullam
+     Sequi,  earum adipisci necessitatibus error a distinction</p>
+     <br><br><br><br>
+<button style="background-color: red; color: white; border-radius:8px; width: 110px; height: 30px;"><b>Join Us Now!</b></button>
+ </div>
+
+
+        <div class="hero">
+            <h4 class="first"> About Edu Meeting HTML templates</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Obcaecati at possimus aut asperiores nulla dolorum ab hic voluptatem corporis animi reiciendis modi <span>assumenda</span> deleniti voluptates? Lorem ipsum dolor sit amet consectetur <span>adipisicing </span>elit. Quos </p>
+
+<h4><b> HTML CSS Bootstrap Layout</b></h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<h4> Shares This To Your Collegous</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<h4>Please Tells Your Friends</h4>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
+</div>
+        
+
+<div class="first second" style="height: 40vh;">
+    <h2> APPLY FOR BACHELOR DEGREE </h2>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi laboriosam sapiente debitis ullam? Sequi, earum adipisci necessitatibus error a distinction</p>
+<br><br><br><br>
+<button style="background-color: red; color: white; border-radius:8px; width: 110px; height: 30px; "><b>Join Us Now!</b></button>
+</div>
+    </div>
+</body>
+</html>

@@ -7,7 +7,7 @@ body{
     background-color: black;
 }
 div.container{
-    background-image: url(background.jpeg);
+    background-image: url(pic1.jpeg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     width: 100vw;
@@ -37,6 +37,7 @@ div.header span{
 div.menu{
     background-color: white;
     opacity: 50%;
+    width: 100vw;
 }
 div.menu h1{
     color: gray;
@@ -52,7 +53,7 @@ div.menu ul{
     margin-right: 100px;
 }
 div.menu li{
-    color: gray;
+    color: cyan;
     margin-right: 30px;
     line-height: 80px;
     text-transform: uppercase;
